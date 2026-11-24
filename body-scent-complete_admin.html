@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BODY SCENT — รายการคำสั่งซื้อ (Admin)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">Body <span>Scent</span></a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+          <li><a href="order.html">สั่งซื้อ</a></li>
+          <li><a href="admin.html" class="active">แอดมิน</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Orders Overview</span>
+        <h1 class="section-title">รายการคำสั่งซื้อทั้งหมด</h1>
+        <p class="section-subtitle">
+          แสดงข้อมูลคำสั่งซื้อจากเบราว์เซอร์ปัจจุบัน เรียงจากรายการล่าสุดขึ้นก่อน
+        </p>
+      </div>
+
+      <div class="panel">
+        <div class="table-wrap">
+          <table id="ordersTable" class="orders-table">
+            <thead>
+              <tr>
+                <th>วันเวลา</th>
+                <th>ชื่อลูกค้า</th>
+                <th>เบอร์โทร/Line</th>
+                <th>รายการสินค้า</th>
+                <th>จำนวนเงินรวม</th>
+                <th>หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">BODY SCENT</div>
+      <p class="footer-copy">Minimalist Body Mist &amp; Roll-On Collection</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

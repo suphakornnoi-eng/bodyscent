@@ -1,0 +1,102 @@
+[
+  {
+    "id": "BS001",
+    "name": "Velvet Vanilla Musk",
+    "mood": "อบอุ่น นุ่มนวล น่ากอด (Warm & Cozy)",
+    "type": "Eau de Parfum (EDP)",
+    "size": "50 ml",
+    "price": 890,
+    "image": "images/velvet-vanilla-musk.jpg",
+    "description": "กลิ่นวานิลลามาดากัสการ์ผสานไวท์มัสก์และแอมเบอร์ ให้ความรู้สึกอบอุ่น ละมุนผิว ติดทนนานตลอดวัน"
+  },
+  {
+    "id": "BS002",
+    "name": "Morning Dew & Bergamot",
+    "mood": "สดชื่น กระปรี้กระเปร่า (Fresh & Energetic)",
+    "type": "Eau de Toilette (EDT)",
+    "size": "50 ml",
+    "price": 750,
+    "image": "images/morning-dew-bergamot.jpg",
+    "description": "กลิ่นซิตรัสจากมะกรูดอิตาลีและชาขาว ผสานไอเย็นของหยดน้ำค้างยามเช้า เหมาะสำหรับวันทำงานและอากาศร้อน"
+  },
+  {
+    "id": "BS003",
+    "name": "Peony Silk & Rose",
+    "mood": "โรแมนติก อ่อนหวาน หรูหรา (Romantic & Floral)",
+    "type": "Eau de Parfum (EDP)",
+    "size": "50 ml",
+    "price": 950,
+    "image": "images/peony-silk-rose.jpg",
+    "description": "ความหอมละมุนของดอกโบตั๋นสีชมพูและกุหลาบดามัสก์ ให้ลุคผู้ดี อ่อนหวาน มีเสน่ห์น่าค้นหา"
+  },
+  {
+    "id": "BS004",
+    "name": "Midnight Sandalwood",
+    "mood": "ลึกลับ น่าค้นหา สุขุม (Mysterious & Woody)",
+    "type": "Extrait de Parfum",
+    "size": "50 ml",
+    "price": 1290,
+    "image": "images/midnight-sandalwood.jpg",
+    "description": "ไม้จันทน์หอมผสมผสานกับซีดาร์วูดและพริกไทยดำ ให้ความรู้สึกสุขุม มีระดับ เหมาะสำหรับออกงานกลางคืน"
+  },
+  {
+    "id": "BS005",
+    "name": "Ocean Breeze & Sea Salt",
+    "mood": "ผ่อนคลาย สะอาด สบายตัว (Relaxing & Clean)",
+    "type": "Body Mist",
+    "size": "100 ml",
+    "price": 490,
+    "image": "images/ocean-breeze-sea-salt.jpg",
+    "description": "กลิ่นลมทะเลสดชื่นตัดกับเกลือสมุทรและเสจ ให้ความรู้สึกเหมือนเพิ่งอาบน้ำเสร็จใหม่ๆ เบาสบายไม่ฉุน"
+  },
+  {
+    "id": "BS006",
+    "name": "Sweet Peach & Freesia",
+    "mood": "สดใส ขี้เล่น มีชีวิตชีวา (Playful & Fruity)",
+    "type": "Eau de Toilette (EDT)",
+    "size": "30 ml",
+    "price": 590,
+    "image": "images/sweet-peach-freesia.jpg",
+    "description": "กลิ่นลูกพีชสุกฉ่ำผสานดอกฟรีเซียสีขาว ให้ความรู้สึกสดใส น่ารัก ขี้เล่น เหมาะกับวัยรุ่นและวันสบายๆ"
+  },
+  {
+    "id": "BS007",
+    "name": "Lavender Chamomile Calm",
+    "mood": "สงบ ผ่อนคลาย หลับสบาย (Calm & Soothing)",
+    "type": "Body Mist",
+    "size": "100 ml",
+    "price": 450,
+    "image": "images/lavender-chamomile-calm.jpg",
+    "description": "กลิ่นลาเวนเดอร์ฝรั่งเศสและดอกคาโมมายล์ ช่วยลดความตึงเครียด ใช้ฉีดผิวกายหรือหมอนก่อนนอนได้"
+  },
+  {
+    "id": "BS008",
+    "name": "White Tea & Bamboo",
+    "mood": "มินิมอล สะอาด สงบนิ่ง (Minimal & Zen)",
+    "type": "Eau de Parfum (EDP)",
+    "size": "50 ml",
+    "price": 850,
+    "image": "images/white-tea-bamboo.jpg",
+    "description": "กลิ่นใบชาขาวและยอดไผ่อ่อน ให้ความรู้สึกสะอาด บริสุทธิ์ เรียบหรูสไตล์มินิมอล ใช้ได้ทั้งชายและหญิง (Unisex)"
+  },
+  {
+    "id": "BS009",
+    "name": "Amber Noir & Tonka",
+    "mood": "เซ็กซี่ เย้ายวน มั่นใจ (Sensual & Bold)",
+    "type": "Extrait de Parfum",
+    "size": "50 ml",
+    "price": 1350,
+    "image": "images/amber-noir-tonka.jpg",
+    "description": "กลิ่นอำพันเข้มข้นผสานถั่วตองก้าและกลิ่นกาแฟคั่วอ่อนๆ สร้างเสน่ห์เย้ายวน น่าดึงดูดใจในทุกค่ำคืน"
+  },
+  {
+    "id": "BS010",
+    "name": "Discovery Scent Set (5 Scents)",
+    "mood": "หลากหลาย ครบทุกอารมณ์ (All-in-One Variety)",
+    "type": "Discovery Set (EDP)",
+    "size": "5 x 5 ml",
+    "price": 690,
+    "image": "images/discovery-scent-set.jpg",
+    "description": "เซ็ตทดลองน้ำหอม 5 กลิ่นยอดนิยม ขนาดพกพาสะดวก เหมาะสำหรับทดลองกลิ่นก่อนซื้อขวดใหญ่หรือมอบเป็นของขวัญ"
+  }
+]

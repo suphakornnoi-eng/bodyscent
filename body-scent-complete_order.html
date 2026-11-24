@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BODY SCENT — สั่งซื้อสินค้า</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">Body <span>Scent</span></a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+          <li><a href="order.html" class="active">สั่งซื้อ</a></li>
+          <li><a href="admin.html">แอดมิน</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Order Placement</span>
+        <h1 class="section-title">กรอกข้อมูลการสั่งซื้อ</h1>
+        <p class="section-subtitle">
+          ตรวจสอบรายการสินค้าและยอดเงินรวม แล้วกรอกข้อมูลติดต่อเพื่อยืนยันคำสั่งซื้อ
+        </p>
+      </div>
+
+      <div class="panel" style="max-width: 680px; margin: 0 auto;">
+        <form id="orderForm" novalidate>
+          <div class="form-group">
+            <label for="customerName" class="form-label">ชื่อลูกค้า</label>
+            <input
+              type="text"
+              id="customerName"
+              name="customerName"
+              class="form-control"
+              placeholder="กรอกชื่อ-นามสกุล"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="contact" class="form-label">เบอร์โทร/Line</label>
+            <input
+              type="text"
+              id="contact"
+              name="contact"
+              class="form-control"
+              placeholder="เช่น 08x-xxx-xxxx หรือ Line ID"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="items" class="form-label">รายการสินค้า</label>
+            <input
+              type="text"
+              id="items"
+              name="items"
+              class="form-control"
+              readonly
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="total" class="form-label">จำนวนเงินรวม</label>
+            <input
+              type="number"
+              id="total"
+              name="total"
+              class="form-control"
+              readonly
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="note" class="form-label">หมายเหตุ</label>
+            <textarea
+              id="note"
+              name="note"
+              class="form-control"
+              placeholder="ระบุที่อยู่จัดส่ง หรือข้อความเพิ่มเติม (ถ้ามี)"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-outline-subtle" style="width: 100%;">
+            ยืนยันสั่งซื้อ
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">BODY SCENT</div>
+      <p class="footer-copy">Minimalist Body Mist &amp; Roll-On Collection</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
